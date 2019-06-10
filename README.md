@@ -2,6 +2,10 @@
 
 A Stock API built with Restrify.
 
+# Install
+
+`npm install`
+
 # Build
 
 `npm run build`
