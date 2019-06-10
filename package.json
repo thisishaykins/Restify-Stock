@@ -1,0 +1,23 @@
+{
+    "name": "Restify-Stocks",
+    "version": "1.0.0",
+    "description": "A Simple dockerised node.js rest service that returns stock ticker prices from the stock exchange of my choice.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "Akinshola Samuel <akinsholasamuel@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "alphavantage": "^1.2.5",
+        "mongoose": "^5.5.14",
+        "mongoose-timestamp": "^0.6.0",
+        "restify": "^8.3.3",
+        "restify-errors": "^8.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
